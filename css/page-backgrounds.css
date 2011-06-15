@@ -14,6 +14,9 @@ body.front {
 }
 
 #page-wrapper {
+  border-bottom: 1px solid #c4d7e1;
+  border-left: 1px solid #c4d7e1;
+  border-right: 1px solid #c4d7e1;
 }
 
 #page {

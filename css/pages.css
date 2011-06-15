@@ -97,6 +97,7 @@ div#site-name /* The name of the website */ {
  * Content
  */
 #content {
+  background-color: rgba(208,237,252,0.86);
 }
 
 #content .section {
@@ -116,6 +117,10 @@ h2.title, /* Comment section heading */
 h2.comment-form, /* Comment form heading */
 h3.title /* Comment title */ {
   margin: 0;
+}
+
+h1#page-title {
+  margin-left: 150px;
 }
 
 tr.even /* Some tables have rows marked even or odd. */ {
