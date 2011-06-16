@@ -105,7 +105,8 @@ div#site-name /* The name of the website */ {
  * Content
  */
 #content {
-  background-color: rgba(208,237,252,0.86);
+	background-color: #B4D0E1;
+	background-color: rgba(208,237,252,0.86);
 }
 
 #content .section {

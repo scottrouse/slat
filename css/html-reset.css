@@ -91,7 +91,7 @@ h1 {
   line-height: 2em;
   margin: 0.75em 0;
   font-family: "SinkingShipRegular", Arial, Helvetica, "Nimbus Sans L", sans-serif;
-  color: #91A0A7;
+  color: #91A0A7; /* < IE9 */
   color: rgba(88,88,90,0.44);
 }
 

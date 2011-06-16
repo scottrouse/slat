@@ -16,6 +16,7 @@ li a.active {
  */
 #navigation {
   /* overflow: hidden; /* Sometimes you want to prevent overlapping with main div. */
+  background-color: #161D19; /* < IE9 */
   background-color: rgba(20,20,20,0.6);
 }
 
@@ -75,6 +76,7 @@ li a.active {
 }
 
 #block-superfish-1 ul li ul {
+	background-color: #396D84; /* < IE9 */
   background-color: rgba(13,73,99,0.74);
 }
 
