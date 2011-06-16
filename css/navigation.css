@@ -52,6 +52,10 @@ li a.active {
   background: url(../images/rollover.png) no-repeat center 2px;
 }
 
+#block-superfish-1 .contextual-links-wrapper a:hover {
+	background: url("images/gear-select.png") no-repeat scroll 2px 0 transparent;
+}
+
 #block-superfish-1 li.menuparent ul a:hover, #block-superfish-1 li.menuparent ul a.active {
   background: none;
 }
@@ -104,6 +108,11 @@ li a.active {
   float: left;
   padding: 0 10px;
   border-right: 1px solid #a4c4d1;
+}
+
+.block-menu-block ul.contextual-links li {
+	border: none;
+	padding: 0;
 }
 
 .block-menu-block ul li.last {

@@ -259,6 +259,10 @@ ul.links li {
   top: 0px;
 }
 
+body.admin-menu #block-views-featured-image-block {
+	top: 29px;
+}
+
 .field-name-field-slideshow {
   float: right;
   margin-bottom: 20px;
@@ -267,4 +271,13 @@ ul.links li {
 
 .field-name-field-slideshow img {
   border: 1px solid #F8F8F8;
+}
+
+#block-views-front-page-slideshow-block {
+	position: absolute;
+	top: 0px;
+}
+
+body.admin-menu #block-views-front-page-slideshow-block {
+	top: 29px;
 }
