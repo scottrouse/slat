@@ -26,7 +26,7 @@ body {
 .region-bottom {
   margin-left: auto;
   margin-right: auto;
-  width: 950px;
+  width: 992px;
 }
 
 #page-wrapper {
@@ -34,6 +34,7 @@ body {
 }
 
 #page {
+	margin: 0px 20px;
 }
 
 /*
@@ -68,6 +69,10 @@ body {
   margin-left: 0; /* LTR */
   margin-right: -950px; /* LTR */ /* Negative value of #content's width + left margin. */
   padding: 0; /* DO NOT CHANGE. Add padding or margin to #content .section. */
+}
+
+body.not-front #content {
+  min-height: 470px; /* Prevents #page-wrapper background image from being truncated when there is little content on page. */
 }
 
 .sidebar-first #content {

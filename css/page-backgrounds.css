@@ -18,12 +18,12 @@ body.admin-menu {
 }
 
 #page-wrapper {
-  border-bottom: 1px solid #c4d7e1;
-  border-left: 1px solid #c4d7e1;
-  border-right: 1px solid #c4d7e1;
 }
 
 #page {
+  border-bottom: 1px solid #c4d7e1;
+  border-left: 1px solid #c4d7e1;
+  border-right: 1px solid #c4d7e1;
 }
 
 #header {
@@ -33,6 +33,12 @@ body.admin-menu {
 }
 
 #main-wrapper {
+}
+
+body.not-front #page-wrapper {
+	background-image: url(../images/sidebar.png);
+	background-position: 0px 246px;
+	background-repeat: no-repeat;
 }
 
 #main {
