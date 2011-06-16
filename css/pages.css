@@ -253,13 +253,17 @@ ul.links li {
   float: left;
 }
 
+#block-block-4, #block-block-4 p {
+	margin: 0;
+	padding: 0;
+}
 
-#block-views-featured-image-block, #views_slideshow_cycle_main_front_page_slideshow-block {
+#block-views-featured-image-block, #views_slideshow_cycle_main_front_page_slideshow-block, #block-block-4 {
   position: absolute;
   top: 0px;
 }
 
-body.admin-menu #block-views-featured-image-block {
+body.admin-menu #block-views-featured-image-block, body.admin-menu #block-block-4 {
 	top: 29px;
 }
 
