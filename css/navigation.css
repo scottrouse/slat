@@ -16,6 +16,7 @@ li a.active {
  */
 #navigation {
   /* overflow: hidden; /* Sometimes you want to prevent overlapping with main div. */
+  background-color: rgba(61,61,62,0.74);
 }
 
 #navigation ul.links, /* Main menu and secondary menu links */
@@ -28,10 +29,53 @@ li a.active {
 #navigation ul.links li, /* A simple method to get navigation links to appear in one line. */
 #navigation .content li {
   float: left; /* LTR */
-  padding: 0 10px 0 0; /* LTR */
+  padding: 0 20px 0 0; /* LTR */
 }
 
-.region-navigation {
+.region-navigation .block {
+  margin: 0;
+  float: right;
+}
+
+#block-superfish-1 {
+}
+
+#block-superfish-1 a {
+  color: #C5D8E2;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 140%;
+  line-height: 52px;
+}
+
+#block-superfish-1 a:hover, #block-superfish-1 a.active {
+  background: url(../images/rollover.png) no-repeat center 2px;
+}
+
+#block-superfish-1 li.menuparent ul a:hover, #block-superfish-1 li.menuparent ul a.active {
+  background: none;
+}
+
+#block-superfish-1 li.menuparent ul {
+  list-style-type: disc;
+  top: 52px;
+}
+
+#block-superfish-1 li.menuparent ul li {
+  margin-left: 2em;
+  color: #C5D8E2;
+}
+
+#block-superfish-1 li.menuparent ul li:hover {
+  list-style-type: disc;
+}
+
+#block-superfish-1 ul li ul {
+  background-color: rgba(13,73,99,0.74);
+}
+
+#block-block-3 {
+  margin-right: 50px;
 }
 
 /*
@@ -56,5 +100,26 @@ li a.active {
  * Drupal core has limited ways in which it can display its menus. To get around
  * these limitations, see http://drupal.org/project/menu_block
  */
-.block-menu-block {
+.block-menu-block ul li {
+  float: left;
+  padding: 0 10px;
+  border-right: 1px solid #a4c4d1;
+}
+
+.block-menu-block ul li.last {
+  border-right: none;
+}
+
+.block-menu-block ul.menu, .block-menu-block ul.menu li {
+  list-style-type: none;
+  list-style-image: none;
+}
+
+.block-menu-block ul li a {
+  text-decoration: none;
+  color: #a4c4d1;
+}
+
+.block-menu-block ul li a:hover {
+  text-decoration: underline;
 }

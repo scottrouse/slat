@@ -86,11 +86,12 @@ hr, table, fieldset {
 
 /* Headings */
 h1 {
-  font-size: 1.4em;
+  font-size: 1.8em;
   line-height: 2em;
   margin: 0.75em 0;
   font-family: "SinkingShipRegular", Arial, Helvetica, "Nimbus Sans L", sans-serif;
-  color: #58585a;
+  color: #91A0A7;
+  color: rgba(88,88,90,0.44);
 }
 
 h2 {

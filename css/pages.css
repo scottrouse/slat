@@ -49,6 +49,14 @@ body {
   float: left; /* LTR */
   margin: 0;
   padding: 0;
+  position: relative;
+  top: 90px;
+  left: 10px;
+  z-index: 150;
+}
+
+body.front #logo {
+  top: 312px;
 }
 
 #logo img {
@@ -225,10 +233,38 @@ ul.links li {
  * Footer
  */
 .region-footer {
+  color: #a4c4d1;
+  font-size: 95%;
+  height: 5em;
 }
 
 /*
  * Page bottom
  */
 .region-bottom /* Wrapper for any blocks placed in the page bottom region */ {
+}
+
+#block-block-2 /* Copyright information block */ {
+  float: left;
+  margin-left: 25px;
+}
+
+#block-menu-block-1 /* Footer navigation menu block */ {
+  float: left;
+}
+
+
+#block-views-featured-image-block, #views_slideshow_cycle_main_front_page_slideshow-block {
+  position: absolute;
+  top: 0px;
+}
+
+.field-name-field-slideshow {
+  float: right;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.field-name-field-slideshow img {
+  border: 1px solid #F8F8F8;
 }
