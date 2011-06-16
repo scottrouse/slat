@@ -1,35 +1,5 @@
-ZEN'S STYLESHEETS
------------------
-
-Don't panic!
-
-There are 25 CSS files in this sub-theme, but its not as bad as it first seems:
-- The drupal7-reference.css is just a reference file and isn't used directly by
-  your sub-theme. See below.
-- There are 7 CSS files whose names end in "-rtl.css". Those are CSS files
-  needed to style content written in Right-to-Left languages, such as Arabic and
-  Hebrew. If your website doesn't use such languages, you can safely delete all
-  of those CSS files.
-- If you aren't using this theme while doing wireframes of the functionality of
-  your sub-theme, you can remove wireframes.css from your sub-theme's .info file
-  and delete the file as well.
-
-That leaves just 16 CSS files. (Okay, still quite a few, but better than 25.)
-
-- Instead of one monolithic stylesheet, your sub-theme's CSS files are organized
-  into several smaller stylesheets that are grouped to allow cascading across
-  common Drupal template files.
-- The order of the stylesheets is designed to allow CSS authors to use the
-  lowest specificity possible to achieve the required styling.
-
-
 ORDER AND PURPOSE OF DEFAULT STYLESHEETS
 ----------------------------------------
-
-First off, if you find you don't like this organization of stylesheets, you are
-free to change it; simply edit the stylesheet declarations in your sub-theme's
-.info file. This structure was crafted based on several years of experience
-theming Drupal websites.
 
 - html-reset.css:
   This is the place where you should set the default styling for all HTML
