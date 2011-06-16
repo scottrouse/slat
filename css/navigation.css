@@ -16,7 +16,7 @@ li a.active {
  */
 #navigation {
   /* overflow: hidden; /* Sometimes you want to prevent overlapping with main div. */
-  background-color: rgba(61,61,62,0.74);
+  background-color: rgba(20,20,20,0.6);
 }
 
 #navigation ul.links, /* Main menu and secondary menu links */

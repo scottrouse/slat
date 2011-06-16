@@ -13,6 +13,10 @@ body.front {
     background: url(../images/pagebg_front.jpg) center top no-repeat #011529;
 }
 
+body.admin-menu {
+	background-position: center 29px;
+}
+
 #page-wrapper {
   border-bottom: 1px solid #c4d7e1;
   border-left: 1px solid #c4d7e1;
