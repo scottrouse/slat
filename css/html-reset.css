@@ -91,8 +91,13 @@ h1 {
   line-height: 2em;
   margin: 0.75em 0;
   font-family: "SinkingShipRegular", Arial, Helvetica, "Nimbus Sans L", sans-serif;
-  color: #91A0A7; /* < IE9 */
-  color: rgba(88,88,90,0.44);
+  color: #909FA6; /* < IE9 */
+  color: rgba(88,88,90,0.4);
+  font-weight: normal;
+}
+
+body.front h1 {
+	font-size: 1.4em;
 }
 
 h2 {
