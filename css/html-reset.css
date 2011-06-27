@@ -300,6 +300,7 @@ a:focus {
 }
 
 a:active {
+	outline: none;
 }
 
 /*
